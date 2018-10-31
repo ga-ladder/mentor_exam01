@@ -1,0 +1,94 @@
+/* line 8, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/css-exam.scss */
+#css-exam .blue-rect-wrapper {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #0073c4;
+}
+/* line 15, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/css-exam.scss */
+#css-exam .rect {
+  width: 100px;
+  height: 100px;
+}
+/* line 25, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/css-exam.scss */
+#css-exam .question-02 .rect {
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+/* line 32, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/css-exam.scss */
+#css-exam .question-03 .rect {
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+/* line 3, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+body {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", ".HiraKakuInterface-W1";
+  font-weight: 100;
+}
+
+/* line 8, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+h1 {
+  font-size: 1.5rem;
+}
+
+/* line 12, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+h2 {
+  font-size: 1.2rem;
+}
+
+/* line 16, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+h3 {
+  font-size: 1.0rem;
+}
+
+/* line 21, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+.nav-wrapper .brand-logo {
+  padding-left: 30px;
+}
+
+/* line 26, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+.question {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+/* line 31, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/layout.scss */
+.question-header {
+  padding: 20px 10px;
+  color: #0073c4;
+}
+/* line 8, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/rails_exam.scss */
+#rails-exam .question {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+/* line 13, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/rails_exam.scss */
+#rails-exam .list {
+  margin: 50px 0;
+}
+/* line 17, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/rails_exam.scss */
+#rails-exam input[type="submit"] {
+  color: #fff;
+}
+/* line 21, /Users/genta/GitHub/mentor_exam01/app/assets/stylesheets/rails_exam.scss */
+#rails-exam .flex-justiy-center {
+  display: flex;
+  justify-content: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */

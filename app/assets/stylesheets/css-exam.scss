@@ -10,11 +10,15 @@
     width: 300px;
     height: 300px;
     border: 1px solid #0073c4;
+    display: flex;
+    align-items: center;
   }
 
   .rect {
     width: 100px;
     height: 100px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .question-01 {
