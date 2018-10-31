@@ -4,6 +4,7 @@ class RailsExamController < ApplicationController
 
   def errors
     @author = Author.created_after("2018-01-01 00:00:00").includes(:books)
+    backend
   end
 
   def backend
