@@ -29,10 +29,12 @@
     .rect {
       border: 1px solid white;
       box-sizing: border-box;
+      float: left;
     }
   }
 
   .question-03 {
+    margin-top: 150px;
     .rect {
       padding: 10px;
       width: 100%;
