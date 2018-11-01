@@ -8,7 +8,14 @@ class RailsExamController < ApplicationController
   end
 
   def backend
-    @authors = Author.all.includes(:books)
+    # @authors = Author.all.includes(:books)
+    @books = Book.all.order('price DESC')
+    @authors = []
+    @books.each do |book|
+      if !( @authors.include?(book.author) )
+        @authors << book.author
+      end
+    end
   end
 
   def backend02

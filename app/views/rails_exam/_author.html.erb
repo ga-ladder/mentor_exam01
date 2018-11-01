@@ -1,7 +1,19 @@
-<tr>
-  <td><%= author.family_name %></td>
-  <td><%= author.first_name %></td>
-  <td> X冊</td>
-  <td><%= author.books.first.title %></td>
-  <td><%= author.books.first.price_with_tax %></td>
+<tr class="hov">
+  <td class='trigger'><%= fullname(author.family_name, author.first_name) %></td>
+  <td><%= author.books.count %>冊</td>
+  <td><%= author.books.order('price DESC').first.title %></td>
+  <td><%= author.books.order('price DESC').first.price_with_tax %></td>
 </tr>
+
+<tbody class="book hiddenitems">
+  <tr>
+    <th colspan="2" class="book-tag">タイトル</th>
+    <th class="book-tag">価格</th>
+  </tr>
+  <% author.books.each do |book| %>
+    <tr>
+      <td colspan="2" class="book-item"><%= book.title %></td>
+      <td class="book-item"><%= book.price %></td>
+    </tr>
+  <% end %>
+</tbody>

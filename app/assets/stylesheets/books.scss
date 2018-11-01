@@ -1,3 +1,33 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.book{
+  background-color: rgba(0,0,0,0.05);
+  width: 300px;
+  &-tag{
+    text-align: center;
+    width: 150px;
+  }
+  &-item{
+    text-align: center;
+    width: 150px;
+  }
+}
+.hov:hover{
+  background-color: rgba(0,0,0,0.02);
+}
+.trigger:active{
+  background-color: rgba(0,0,0,0.05);
+}
+
+.hiddenitems{
+  display: none;
+  tr{
+    border: none;
+    width: 383px;
+  }
+}
+.active {
+  display: block;
+}
